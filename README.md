@@ -69,7 +69,7 @@ php artisan serve
 
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@jobboard.com | password |
+| Admin | admin@admin.com | password |
 | User | user@test.com | password |
 
 ---
