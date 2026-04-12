@@ -1,79 +1,67 @@
-<div align="center">
+# Job Portal System
 
-# 💼 Job Board — Job Application Portal
-
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-
-A web application for browsing and applying to job listings, with a full admin panel to manage applications and postings.
-
-</div>
+A job portal web application built with Laravel that allows employers to post jobs and job seekers to apply and track their applications.
 
 ---
 
-## Features
+## 🚀 Features
 
-**Users**
-- Register and log in
-- Browse available job listings
-- View full job details
-- Apply for a job and upload a CV
-
-**Admin**
-- Secure admin dashboard
-- Add new job listings
-- Review applications — accept or reject with one click
+- User authentication (Register / Login)
+- Employers can create, update, and delete job posts
+- Job seekers can browse and apply for jobs
+- Track number of applicants per job
+- Admin dashboard for managing jobs and users
+- Role-based system (Admin / User)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Laravel 10 |
-| Templating | Blade |
-| Styling | Custom CSS |
-| Database | MySQL |
-| File Upload | Laravel Storage |
+- PHP
+- Laravel
+- MySQL
+- Blade
+- Bootstrap
 
 ---
 
-## Getting Started
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/Home.png)
+![Home](screenshots/Home2.png)
+### Job Listings
+![Jobs](screenshots/jobs.png)
+
+### Job Details
+![Job Details](screenshots/jobdetail.png)
+
+### Applications
+![Applications](screenshots/applications.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ⚙️ Installation
 
 ```bash
-# Clone & install
-git clone https://github.com/mahmoudtawfik1998/job-board.git
-cd job-board
+git clone https://github.com/mahmoudtawfik1998/job-portal-laravel.git
+cd job-portal-laravel
 composer install
-
-# Setup environment
 cp .env.example .env
 php artisan key:generate
-# → set DB credentials in .env
-
-# Run migrations
-php artisan migrate --seed
-
-# Link storage for CV uploads
-php artisan storage:link
-
-# Start the server
+php artisan migrate
 php artisan serve
-```
 
----
+📌 Project Highlights
+Built a complete job application workflow
+Implemented role-based access control
+Developed system to track job applicants
+Designed real-world recruitment logic
 
-## Demo Credentials
-
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@admin.com | password |
-| User | user@test.com | password |
-
----
-
-## License
-
-[MIT](LICENSE)
+📬 Contact
+Mahmoud Tawfik
+Laravel Backend Developer
+GitHub: https://github.com/mahmoudtawfik1998
