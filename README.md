@@ -25,11 +25,11 @@ A full-featured Job Portal system built with Laravel that allows employers to po
 ---
 
 ## 📸 Screenshots
-
-### Home ### Home Page
+### Home Page
 ![Home](screenshots/Home.png)
-![Home](screenshots/Home2.png)
 
+### Home Page (Alternative View)
+![Home](screenshots/Home2.png)
 ### Job Listings
 ![Jobs](screenshots/jobs.png)
 
