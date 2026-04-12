@@ -27,9 +27,10 @@ A job portal web application built with Laravel that allows employers to post jo
 
 ## 📸 Screenshots
 
-### Home Page
+### Home ### Home Page
 ![Home](screenshots/Home.png)
 ![Home](screenshots/Home2.png)
+
 ### Job Listings
 ![Jobs](screenshots/jobs.png)
 
@@ -41,7 +42,6 @@ A job portal web application built with Laravel that allows employers to post jo
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
-
 ---
 
 ## ⚙️ Installation
