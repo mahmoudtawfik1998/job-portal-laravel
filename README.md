@@ -54,11 +54,13 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 
-📌 Project Highlights
-Built a complete job application workflow
-Implemented role-based access control
-Developed system to track job applicants
-Designed real-world recruitment logic
+
+## 📌 Project Highlights
+- Implemented job application workflow
+- Track number of applicants per job
+- Role-based system (Admin / User)
+- Dynamic job management system
+
 
 📬 Contact
 Mahmoud Tawfik
