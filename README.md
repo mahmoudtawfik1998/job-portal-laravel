@@ -1,7 +1,6 @@
 # Job Portal System
 
-A job portal web application built with Laravel that allows employers to post jobs and job seekers to apply and track their applications.
-
+A full-featured Job Portal system built with Laravel that allows employers to post jobs and track applicants efficiently.
 ---
 
 ## 🚀 Features
